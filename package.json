@@ -1,0 +1,42 @@
+{
+  "name": "funboxhtmlcssjs",
+  "version": "1.0.0",
+  "description": "webpack_box",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "RomanRo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-import": "^1.13.5",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-minimizer-webpack-plugin": "^3.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "stylelint-webpack-plugin": "^3.2.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
